@@ -1,0 +1,79 @@
+/*styles*/
+body /*police globale*/
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+/*police globale*/
+
+
+li /*nav header */
+{
+    font-size: 20px;
+    text-decoration: none;
+}
+a /*liens */
+{
+    text-decoration: none;
+    color: black;
+}
+a:hover /*liens survolés*/
+{
+    color:darkcyan;
+}
+
+
+l
+/* direction */
+header
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+   
+}
+#logohead
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+#nomlogo
+{
+    margin-top: 0px;
+}
+.bandenav
+{
+    display: flex;
+    box-shadow:0px 0px 2px 2px #aaa;
+    border-radius: 20px;
+    
+}
+li 
+{
+margin-right: 10px;
+list-style-type: none;
+}
+
+#logo1
+{
+   width: 100px; 
+}
+
+.titresection
+{
+    font-size: 30px;
+    width: 100%;
+    background-color: #8395a7;
+    border : black 1px;
+}
+.grandtitre
+{
+    text-align: center;
+    font-size: 28px;
+}
+#cartehme
+{
+    text-align: center;
+}

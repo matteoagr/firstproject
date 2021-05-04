@@ -4,21 +4,26 @@
 <head>
     <title> Bienvenue sur NanguLodge!</title>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
     <header>
-        <img src="images/logonangu.png" width="150" alt="mon logo">
+        <div id="logohead">
+        <img src="images/logonangu.png" alt="mon logo" id="logo1">
+        <div id="nomlogo">
         <h1>Nangu Lodge</h1>
         <h2>Samara</h2>
+        </div>
+        </div>   
         <nav id="navhead">
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="noscabinas.html">Cabinas</a></li>
-                <li><a href="puravida.html">Pura vida</a></li>
-                <li><a href="reservation.html">Réservations</a></li>
-                <li><a href="tips.html">tips</a></li>
-                <li><a href="contact.html">contact</a></li>
+            <ul class="bandenav">
+                <li><a class="lienvav" href="home.html">Home</a></li>
+                <li><a class="lienvav" href="noscabinas.html">Cabinas</a></li>
+                <li><a class="lienvav" href="puravida.html">Pura vida</a></li>
+                <li><a class="lienvav" href="reservation.html">Réservations</a></li>
+                <li><a class="lienvav" href="tips.html">tips</a></li>
+                <li><a class="lienvav" href="contact.html">contact</a></li>
             </ul>
         </nav>
     </header>
@@ -26,7 +31,7 @@
     <section id="contenuprincipalhome">
         <section id="section1">
             <div class="titresection">
-                <h1>Vivez une expérience extraordinaire proche de la nature !</h1>
+                <h1 class="grandtitre">Vivez une expérience extraordinaire proche de la nature !</h1>
             </div>
             <div class="contenusection">
                 <p>Nangu Lodge est une résidence composé de 3 cabinas indépendantes dans une résidence privé. Situé en
@@ -45,8 +50,8 @@
         <!--fin section 1-->
 
         <section id="section2">
-            <div> class="titresection">
-                <h1 class="titresection">Caractéristiques</h1>
+            <div class="titresection">
+                <h1 class="grandtitre">Caractéristiques</h1>
             </div>
             <div class="contenusection">
                 <ul>
@@ -69,8 +74,8 @@
         <!--fin section 2-->
 
         <section id="section3">
-            <div> class="titresection">
-                <h1>Pourquoi louer le Nangu Lodge ?</h1>
+            <div class= "titresection">
+                <h1 class="grandtitre">Pourquoi louer le Nangu Lodge ?</h1>
             </div>
             <div class="contenusection">
                 <p> Situé dans un coin tranquil, il est aussi bien adapté à des vacances en familles qu'a une retraite
@@ -83,7 +88,7 @@
 
         <section id="section 4">
             <div class="titresection">
-                <h1>Localisation</h1>
+                <h1 class="grandtitre">Localisation</h1>
             </div>
             <div class="contenusection">
                 <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
@@ -99,18 +104,7 @@
         </section>
     </section>
     <!--fin contenu principal-->
-    <aside id="rightcolumn">
-        <section id="recherche">
-            <h1><label for="searchbox">Recherche</label></h1>
-            <input type="search" name="searchbox"id="searchbox">
-        </section>
-        <section>
-            <h1>Catégories</h1>
-        </section>
-        <section>
-            <h1>Archives</h1>
-        </section>
-    </aside>
+   
 
     <footer>
 
