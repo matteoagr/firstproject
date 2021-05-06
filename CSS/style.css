@@ -4,8 +4,11 @@ body /*police globale*/
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
 }
-/*police globale*/
 
+p /* classique paragraphe*/
+{
+    font-size: 16px;
+}
 
 li /*nav header */
 {
@@ -23,36 +26,32 @@ a:hover /*liens survolés*/
 }
 
 
-l
 /* direction */
 header
 {
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-around;
-   
+    justify-content: space-between;
+    width: 100%;
+    background-color:;
+    box-shadow :0px 0px 2px 2px rgba(0,0,0,0.23);
+    align-items: center;
+    position: fixed;
 }
-#logohead
-{
-    display: flex;
-    flex-direction: column;
-    margin-top: 0px;
-}
-#nomlogo
-{
-    margin-top: 0px;
-}
+
+
 .bandenav
 {
     display: flex;
     box-shadow:0px 0px 2px 2px #aaa;
     border-radius: 20px;
     
+    
 }
 li 
 {
-margin-right: 10px;
+margin-right: 40px;
 list-style-type: none;
 }
 
@@ -60,6 +59,8 @@ list-style-type: none;
 {
    width: 100px; 
 }
+/*fin de la mise en page header*/
+
 
 .titresection
 {
@@ -74,6 +75,35 @@ list-style-type: none;
     font-size: 28px;
 }
 #cartehme
+{
+    text-align: center;
+}
+#imgsection1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.is1
+{
+    margin-right: 10px;
+    width: 200px;
+}
+#ts1
+{
+    text-align: center;
+}
+#contenusection2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.is2
+{
+    width: 120px;
+}
+#cartehome
 {
     text-align: center;
 }
